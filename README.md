@@ -13,14 +13,7 @@ and $u_3(t)$.
 
 The state equations are given by:
 
-$$
-\frac{dP}{dt}
-=
-a_1+l+v_1T-
-\left[
-p+e\frac{S}{S_a}(1+u_1)
-\right]P
-$$
+$\frac{dP}{dt}=a_1+l+v_1T-\left[p+e\frac{S}{S_a}(1+u_1)\right]P$
 
 $$
 \frac{dE}{dt}
