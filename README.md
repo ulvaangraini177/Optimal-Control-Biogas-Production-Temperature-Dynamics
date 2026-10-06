@@ -15,30 +15,15 @@ The state equations are given by:
 
 $\frac{dP}{dt}=a_1+l+v_1T-\left[p+e\frac{S}{S_a}(1+u_1)\right]P$
 
-$$
-\frac{dE}{dt}
-=
-e\frac{S}{S_a}(1+u_1)P-(c+h)E+oT
-$$
+$\frac{dE}{dt}=e\frac{S}{S_a}(1+u_1)P-(c+h)E+oT$
 
-$$
-\frac{dT}{dt}
-=
-(c+h)E+p(1+u_2)P-aT-(v_2+o)T
-$$
+$\frac{dT}{dt}=(c+h)E+p(1+u_2)P-aT-(v_2+o)T$
 
-$$
-\frac{dS}{dt}
-=
-q_Hu_3-k_L(S-S_a)
-$$
+$\frac{dS}{dt}=q_Hu_3-k_L(S-S_a)$
 
 The control variables satisfy:
 
-$$
-0 \leq u_i(t) \leq 1,
-\qquad i=1,2,3.
-$$
+$0 \leq u_i(t) \leq 1,\qquad i=1,2,3.$
 
 ## MATLAB Files
 
