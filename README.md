@@ -37,7 +37,7 @@ $$
 $$
 \frac{dS}{dt}
 =
-q_Hu_3-k_L(S-S_a).
+q_Hu_3-k_L(S-S_a)
 $$
 
 The control variables satisfy:
